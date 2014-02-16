@@ -2,11 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title><?php echo $title_for_layout; ?> - <?php echo __('CandyCane'); ?></title>
+    <title><?php echo $pageTitle; ?> - <?php echo __('CandyCane'); ?></title>
     <?php
         echo $this->Html->css(array(
             '/cc_install/css/install',
         ));
+        echo $this->Html->script(array('/cc_install/js/jquery-1.10.2.min.js'));
         echo $scripts_for_layout;
     ?>
 </head>
