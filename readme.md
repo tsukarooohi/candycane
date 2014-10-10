@@ -1,4 +1,5 @@
 # CandyCane #
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/tsukarooohi/candycane?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 CandyCane is a issue tracking system. The original implementation on which it is based, is [Redmine](http://www.redmine.org)
 
